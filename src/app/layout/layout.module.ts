@@ -1,18 +1,18 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import {HomeComponent} from './home.component';
 import {BodyComponent} from './body/body.component';
 import {HeaderComponent} from './header/header.component';
+import {LayoutComponent} from './layout.component';
 
 @NgModule({
   declarations: [
-    HomeComponent,
+    LayoutComponent,
     HeaderComponent,
-    BodyComponent
+    BodyComponent,
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
   ],
   providers: [],
 })
-export class HomeModule { }
+export class LayoutModule { }

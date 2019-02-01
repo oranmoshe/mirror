@@ -1,0 +1,18 @@
+:host {
+  height: 100%;
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+
+article{
+  position: absolute;
+  top:0vh;
+  left:0vh;
+  width: 2vh;
+  height: 2vh;
+}
+
+#presentBtn{
+  z-index: 9999;
+}
