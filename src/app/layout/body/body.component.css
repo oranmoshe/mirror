@@ -1,0 +1,38 @@
+:host {
+  display: block;
+  height: 70vh;
+}
+
+.proifle {
+  border-radius: 30vw;
+  margin: 0 auto;
+  width: 10vw;
+  height: 10vw;
+  background-image: url("../../../assets/profile.jpg");
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  left:20vw;
+  bottom: 10vh;
+}
+.title{
+  position: absolute;
+  font-size: 2vh;
+  text-align: center;
+  width: 20vw;
+  text-align: left;
+  padding:1vw;
+}
+article{
+
+}
+.video{
+  border-radius: 500px;
+  margin: 0 auto;
+  width: 500px;
+  height: 500px;
+  overflow: hidden;
+}
+video {
+  margin-left: -20vw;
+}

@@ -1,0 +1,5 @@
+<ul>
+  <li *ngFor="let item of this.times; let i = index">
+    <article class="sample" [ngClass]="this.index === i?'selected':''"></article>
+  </li>
+</ul>

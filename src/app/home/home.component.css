@@ -1,0 +1,20 @@
+
+.man{
+  background-image: url("../../assets/brushing-teeth-too-hard.jpg");
+  background-size: cover;
+  opacity: 0.1;
+  position: absolute;
+  top: 0px;
+  bottom:0px;
+  right: 0px;
+  left:0px;
+}
+p {
+  margin: 0px;
+  height: 100%;
+  width: 100%;
+  color: #ffffff
+}
+.hidden{
+  display: none;
+}

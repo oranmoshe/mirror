@@ -1,0 +1,29 @@
+section{
+  height: 30vh;
+  font-weight: bold;
+  font-size: 10vh;
+  color: #ffffff;
+  padding-left: 10vh;
+}
+
+#day{
+  font-weight: bold;
+  font-size: 4vh;
+  color: #ffffff;
+  margin-top: 10vh;
+  padding-bottom: 2vh;
+}
+
+#time{
+  font-weight: bold;
+  font-size: 3vh;
+  color: #ffffff;
+  line-height: 3vh;
+}
+
+#weather{
+  width:232px;
+  position: absolute;
+  right: 10vh;
+  top: 10vh;
+}

@@ -13,6 +13,11 @@ article{
   height: 2vh;
 }
 
+section{
+  width: 50vw;
+  margin-left: 12.5vw;
+}
+
 #presentBtn{
   z-index: 9999;
 }

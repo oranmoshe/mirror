@@ -1,0 +1,24 @@
+:host {
+  display: block;
+  height: 20vh;
+}
+ul{
+  list-style: none;
+}
+li{
+  float: left;
+  margin-left: 2vw;
+}
+ul:after{
+  clear: both;
+  content: '';
+}
+.sample{
+  width: 5vw;
+  height:10px;
+  background-color: gray;
+  border-radius: 40px;
+}
+.selected{
+  background-color: white;
+}
